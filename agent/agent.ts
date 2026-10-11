@@ -1,5 +1,5 @@
-import { openai } from "@ai-sdk/openai";
-  import { defineAgent } from "eve";
-  export default defineAgent({
-    model: openai("gpt-5.6-luna"),
-  });
+import { defineAgent } from "eve";
+const model = "deepseek/deepseek-v4.1-flash";
+export default defineAgent({
+  model,
+});
